@@ -1,0 +1,97 @@
+#home-page-text {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 100%;
+}
+
+h2 {
+  font-size: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#purchase-grid {
+  display: grid;
+  justify-self: center;
+  background-color: #1a1a1a;
+  width: 90%;
+  height: fit-content;
+
+}
+
+#purchase-grid img {
+  max-height: 130px;
+  width: auto;
+  cursor: pointer;
+}
+
+#products-yellow img {
+  color: gold;
+}
+#products-purple img {
+  color: #8650ac;
+}
+
+#products-yellow,
+#products-purple {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(120px, max-content));
+  gap: 15px;
+  margin: 15px;
+}
+
+
+#products-yellow p,
+#products-purple p {
+  justify-self: center;
+  font-size: 50%;
+}
+
+#products-purple img,
+#products-yellow img {
+  border: 3px solid;
+  border-radius: 15px;
+}
+
+
+#checkout-text {
+  font-size: 60%;
+}
+
+#payment-section {
+  display: flex;
+  justify-self: end;
+  margin: 10px;
+  vertical-align: center;
+  flex-direction: column;
+  background-color: #464646;
+  align-items: center;
+}
+
+
+
+body {
+  background-color: #2a2a2a;
+  color: white;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  font-size: 200%;
+  font-family: Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#payment-section {
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  #payment-section {
+    justify-self: center;
+  }
+}

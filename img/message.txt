@@ -1,0 +1,120 @@
+# Release
+
+<!--
+    In this file, you indicate your assignment's status by filling in the required text, dates, and so on. 
+
+    You may write in {Swedish or English}, and you are free to remove the comments if you like.
+-->
+
+## Release status
+
+<!-- 
+    To inform the examiner that your application is ready to be assessed, you must make a release by checking all the checkboxes below.
+
+    You check a checkbox by adding an "x" in the parentheses. 
+-->
+
+- [x] I have started working on the assignment.
+- [x] All mandatory functional requirements are met (see below).
+- [x] All mandatory non-functional requirements are met (see below).
+- [x] I have completed the assignment report (see below).
+- [x] I am aware that I have to book a time slot for an oral exam after this MR has been submitted.
+
+---
+
+- [x] I intend to submit the assignment, and at the same time, I guarantee that I am the one who created the submitted code. When I have used external libraries or used code from other sources, the source has been clearly stated.\
+\
+(___Swedish___: _Jag avser göra en inlämning av uppgiften och samtidigt garanterar jag att det är jag som skapat den inlämnade koden. När jag använt externa bibliotek, eller använt kod från andra källor, har källan angetts tydligt._)
+
+---
+
+## Requirement fulfillment
+
+<!-- 
+    Make sure that you have closed issues that are required. If not, please comment below. 
+-->
+
+### Functional Requirements
+
+| Issue  | Mandatory  | Comment |
+| ------ | ---------  | ------- |
+| #5     | ✅         |         |
+| #6     | ✅         |         |
+| #8     | ✅         |         |
+| #9     | ✅         |         |
+| #10    | ✅         |         |
+
+### Non Functional Requirements
+
+| Issue | Mandatory | Comment |
+| ----- | --------- | ------- |
+| #1    | ✅         | This program is nothing advanced, unnecessary to make multiple submits for it before it's complete |
+| #2    | ✅         |         |
+| #3    | ✅         |         |
+| #4    | ✅         |         |
+| #7    | ✅         |         |
+
+### Student Defined Requirements
+
+<!-- 
+    If you have created requirements on your own and added them as issues, reference them below. 
+    Remove this section if not needed.
+-->
+
+| Issue | Comment |
+| ----- | ------- |
+| #id   |         |
+
+
+## Assignment report
+
+<!-- 
+    In the assignment report, you reflect on your assignment. 
+-->
+
+👉 Did you forget to replace this text?
+
+### Reflection
+
+<!-- 
+    Your thoughts on the assignment. What was hard, what have you learned? What could you have done differently? 
+
+-->
+
+I could've not underestimate the assignment, I thought this was going to be something an AI can do in ten minutes so I waited a while before getting started but there's a lot of stuff that makes it hard, the worst part was ESlint but I got some files and commands that format it properly.
+I didn't use a book when making this, I think it's an outdated and time-wasting method, I used ChatGPT for parts of the program and gave it clarification when something was wrong or I fixed it myself.
+I'll list the things I learned, ChatGPT taught me most of it.
+1. The # prefix turns one thing into a private thing and it can only be used inside that class
+2. If you put ... before the name of an array you get all the elements inside it, visually it removes the [] parts so if you don't use ... you get [[array]]
+It's mostly used for creating a new array.
+3. I also got help with the ESlint stuff
+You could call it OCD for programmers but I learned that after a description there needs to be a line with only * and no spaces afterwards
+4. There's more I learned about it, syntax goes like @param {Player} player - The player participating., the type in an object and then the variable name and then the description and if a function returns nothing you add @return void
+I wouldn't say AI created this code because that's basically saying it created everything, there's code that was finished from the start and I've also adjusted it a lot to make it work with the diagram, rule fixes, natural win conditions etc.
+
+
+### Further improvements
+
+<!-- 
+    Further improvements of the assignment. What could you have done but did not have the time to complete? 
+-->
+
+I wouldn't hand it in if something is missing
+The optional tasks for a harder challenge, I didn't do those
+
+### Extras
+
+<!--
+    Have you done anything more than the requirements? Preferably, add each additional requirement as an issue and reference it here using # followed by the issue id.
+-->
+
+### Feedback
+
+<!-- 
+    Feedback to the course management about the assignment.
+-->
+
+Maybe something that is advanced. This was kind of hard but not advanced, knowing how to code something advanced puts you ahead of others because AI can't replace that part yet. For easy things, AI can finish it in a minute, for medium things, takes a while and clarification, but advanced logic, AI is going to be completely lost.
+If we could choose our assignments that would be great too.
+List ChatGPT on https://coursepress.lnu.se/kurser/webbprogrammering-pa-klientsidan/studieguide/larresurser
+ChatGPT is an amazing learning tool, assuming the user takes time to learn what the code does. It can be a lot of unfamiliar code but they'll learn it little by little.
