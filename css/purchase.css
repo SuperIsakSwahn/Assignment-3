@@ -37,7 +37,7 @@ h2 {
 #products-purple {
   display: grid;
   justify-items: center;
-  grid-template-columns: repeat(auto-fill, minmax(120px, max-content));
+  grid-template-columns: repeat(auto-fit, 135px);
   gap: 15px;
   margin: 15px;
 }
