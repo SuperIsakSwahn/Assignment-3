@@ -70,7 +70,12 @@ h2 {
   align-items: center;
 }
 
-
+#unusuals-section, #scrapweapons-section {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: column;
+}
 
 body {
   background-color: #2a2a2a;
