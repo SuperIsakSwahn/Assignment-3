@@ -17,7 +17,6 @@ h2 {
   background-color: #1a1a1a;
   width: 90%;
   height: fit-content;
-
 }
 
 #purchase-grid img {
@@ -25,6 +24,7 @@ h2 {
   width: auto;
   cursor: pointer;
 }
+
 
 #products-yellow img {
   color: gold;
@@ -62,12 +62,35 @@ h2 {
 
 #payment-section {
   display: flex;
+  position: absolute;
   justify-self: end;
   margin: 10px;
   vertical-align: center;
   flex-direction: column;
   background-color: #464646;
   align-items: center;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#offer-message {
+  visibility: hidden;
+  background-color: gold;
+  width: 80%;
+}
+
+#shopping_cart:checked + #offer-message {
+  visibility: visible;
+}
+
+#shopping_cart:active {
+  background-color: grey;
+}
+
+
+#payment-section:active {
+  background-color: grey;
 }
 
 #unusuals-section, #scrapweapons-section {
@@ -91,8 +114,18 @@ a {
   text-decoration: none;
 }
 
-#payment-section {
-  cursor: pointer;
+
+#offer-message {
+  visibility: hidden;
+}
+
+#payment-section input:checked + label p {
+  visibility: visible;
+}
+
+#products-purple input:checked + label img,
+#products-yellow input:checked + label img {
+  background-color: gray;
 }
 
 @media (max-width: 600px) {
