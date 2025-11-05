@@ -115,14 +115,6 @@ a {
 }
 
 
-#offer-message {
-  visibility: hidden;
-}
-
-#payment-section input:checked + label p {
-  visibility: visible;
-}
-
 #products-purple input:checked + label img,
 #products-yellow input:checked + label img {
   background-color: gray;
@@ -131,5 +123,15 @@ a {
 @media (max-width: 600px) {
   #payment-section {
     justify-self: center;
+    position: static;
+  }
+  #offer-message {
+    visibility: visible;
+    display: none;
+    width: 100%;
+  }
+
+  #shopping_cart:checked + #offer-message {
+    display: block;
   }
 }
