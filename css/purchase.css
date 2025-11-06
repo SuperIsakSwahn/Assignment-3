@@ -62,7 +62,7 @@ h2 {
 
 #payment-section {
   display: flex;
-  position: absolute;
+  position: relative;
   justify-self: end;
   margin: 10px;
   vertical-align: center;
@@ -75,18 +75,19 @@ h2 {
 }
 
 #offer-message {
-  visibility: hidden;
+  display: none;
   background-color: gold;
   width: 80%;
 }
 
 #shopping_cart:checked + #offer-message {
-  visibility: visible;
+  display: block;
 }
 
 #shopping_cart:active {
   background-color: grey;
 }
+
 
 
 #payment-section:active {
