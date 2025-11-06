@@ -90,6 +90,7 @@
             <li>Global navigering från startsidan.</li>
             <li>Kommunicera med servern (till exempel att markera föremål och begära ett byte).</li>
             <li>Använda sidan på datorn eller telefonen.</li>
+            <li>Förändringar i bakgrundsfärg och text-popups.</li>
             <li>Få byteserbjudande på Steam (hela poängen).</li>
         </ul>
     </section>
@@ -99,11 +100,11 @@
         <!-- För VG är det viktigt att du beskriver hur du använt Garretts modell och tar med referenser med sidnummer till boken, för att styrka det du tar upp i din text. Se mer info i rutan om referenser på uppgiftens webbsida. -->
         <p>Jag googlade mycket om det jag hade svårt med eller så använde jag ChatGPT, men själva koden lade jag till.</p>
         <p>Jag fick väldigt fort migrän av uppgiften när jag började, så jag fick sova bort 10 timmar av dagen.<br>Troligtvis fick jag migrän av att sidan som jag läste reglerna på var ljus, och jag får otroligt lätt migrän av ljus.</p>
-        <p>Jag använde Garretts strategiplan (Garrett, 2011, s.40) för att komma fram till att den här sidans syfte är att kunder behöver en sida för säker och automatisk trading och jag behöver tjäna på vinsterna.</p>
-        <p>Jag använde också scopeplanen (Garrett, 2011, s.40) för att bestämma delvis hur sidan ska fungera, den ska ha massor av knappar för att bestämma vad man vill ha, och så en textinmatning på supportsidan.</p>
-        <p>För strukturplanen implementerade jag själva strukturen på sidan, till exempel:<br>På startsidan finns en knapp som länkar till alla andra sidor.<br>På de andra sidorna finns det en knapp som länkar till startsidan.<br>På sidorna där man köper någonting finns en meny med produkter, man klickar på det man vill köpa och så klickar man på kundvagnen.</p>
-        <p>För skelettplanen fokuserade jag på placeringen av element på sidan. Jag använde rutnät för att strukturera föremålen, och placerade navigationslänkarna så att användaren hittar mellan sidorna. Jag såg också till att formuläret på supportsidan är centrerat.</p>
-        <p>För ytplanen tog jag inspiration från en annan sida. Det handlar om hur sidan ser ut, sidan ser ganska simpel ut, mörk bakgrund, vit text för det mesta, gul text för scrapweapons och lila text för unusuals, sidorna där man köper saker så samlas föremålen i rutnät.</p>
+        <p>Jag använde Garretts strategiplan (Garrett, 2011, s.36) för att komma fram till att den här sidans syfte är att kunder behöver en sida för säker och automatisk trading och jag behöver tjäna på vinsterna.</p>
+        <p>Jag använde också scopeplanen (Garrett, 2011 , s.58) för att bestämma delvis hur sidan ska fungera, den ska ha massor av knappar för att bestämma vad man vill ha, och så en textinmatning på supportsidan.</p>
+        <p>För strukturplanen (Garrett, 2011 , s.80) implementerade jag själva strukturen på sidan, till exempel:<br>På startsidan finns en knapp som länkar till alla andra sidor.<br>På de andra sidorna finns det en knapp som länkar till startsidan.<br>På sidorna där man köper någonting finns en meny med produkter, man klickar på det man vill köpa och så klickar man på kundvagnen.</p>
+        <p>För skelettplanen (Garrett, 2011 , s.108) fokuserade jag på placeringen av element på sidan. Jag använde rutnät för att strukturera föremålen, och placerade navigationslänkarna så att användaren hittar mellan sidorna. Jag såg också till att formuläret på supportsidan är centrerat.</p>
+        <p>För ytplanen (Garrett, 2011 , s.134) tog jag inspiration från en annan sida. Det handlar om hur sidan ser ut, sidan ser ganska simpel ut, mörk bakgrund, vit text för det mesta, gul text för scrapweapons och lila text för unusuals, sidorna där man köper saker så samlas föremålen i rutnät.</p>
     </section>
     <section>
         <h2>4. Bilder</h2>
@@ -113,6 +114,7 @@
             <li>Jag minskade bilderna till 50% av sidan (eller 25% av ytan).</li>
         </ul>
         <p>Picture-elementet visar en shoppingvagn på följande sidor: scrapweapons.html, unusuals.html</p>
+        <p>Bilderna kommer från Team Fortress 2 eller så har jag gjort dem eller googlat.</p>
     </section>
     <section>
         <h2>5. Utvärdering mot kravspecifikationen</h2>
@@ -133,6 +135,7 @@
             <li>Global navigering från startsidan. Uppfyllt, startsidan har en länk för varje sida som visas med text eller bild.</li>
             <li>Kommunicera med servern (till exempel att markera föremål och begära ett byte). Ej uppfyllt då uppgiften är en fiktionell sida där backend/javascript förbjuds.</li>
             <li>Använda sidan på datorn eller telefonen. Uppfyllt, speciellt genom att använda kod som max-width i CSS.</li>
+            <li>Förändringar i bakgrundsfärg och text-popups. Uppfyllt, gjorde förändringar i HTML och CSS för att uppnå.</li>
             <li>Få byteserbjudande på Steam. Ej uppfyllt då uppgiften är en fiktionell sida där backend/javascript förbjuds.</li>
         </ul>
     </section>
@@ -141,7 +144,9 @@
         <h3>- med metoden "Tänka högt" (Thinking Out Loud)</h3>
         <!-- Endast för VG. Har du inte utfört användartest, tar du bort detta avsnitt (hela section-elementet). -->
         <!-- Beskriv hur du genomförde användartestet. Ange vilka brister du upptäckte och hur du åtgärdat dem. -->
-        <p>Mamma testade sidan. Hon gick in på alla sidor förutom rapporten och hon köpte en unusual och en scrapweapon (burning flames thirst blood och bat outta hell) och hon klagade på att när man väljer föremål så indikeras det inte, ingenting händer heller när man klickar på kundvagnen. Jag sade att det blir omöjligt utan javascript, men jag är säker på att det går att ordna någonting. Hon gick in på support sidan och föreslog det, så jag implementerade det nu.</p>
+        <p>Mamma testade sidan. Hon gick in på alla sidor förutom rapporten och hon köpte en unusual och en scrapweapon (burning flames thirst blood och bat outta hell) och hon klagade på att när man väljer föremål så indikeras det inte, ingenting händer heller när man klickar på kundvagnen. Jag sade att det blir omöjligt utan javascript, men jag är säker på att det går att ordna någonting. Hon gick in på support sidan och föreslog det, så jag implementerade det nu. På telefonen såg det illa ut, så det fixar jag också.</p>
+        <p>Morfar testade sidan, det gick nästan precis som förväntat förutom att kundvagnen behöver putta ner produkterna. Fixade det nu och testade på telefonen och datorn igen.</p>
+        <p>En kompis testade sidan, allt gick som förväntat, fixade ett felaktigt namn, han önskade att det fanns mer, men javascript (i försök att göra det lättare) så det går inte berättade jag.</p>
     </section>
     <section>
         <h2>Källförteckning</h2>
