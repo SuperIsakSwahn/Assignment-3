@@ -49,26 +49,26 @@
 <main>
     <section>
         <h2>1. Syfte och målgrupp</h2>
-        <p>I uppgiften skapades en webbplats för<br>
-            Företaget Buy Isak Fortress 2 Items som går ut på automatisk försäljning/köpande, man kan köpa eller sälja TF2-föremål här.<br>
-            TF2-föremål finns i Team Fortress 2 och deras värde varierar otroligt mycket, på den här sidan kan man handla med billiga och dyra föremål.
+        <p>I uppgiften skapades en webbplats för
+            <br> Företaget "Buy Isak Fortress 2 Items" som går ut på automatisk försäljning av föremål i spelet Team Fortress 2.
+            <!-- <br> TF2-produkter finns i Team Fortress 2 och deras värde varierar mycket (vissa kostar mindre än ett öre, vissa kostar över $10000), på den här sidan kan man köpa både billiga och dyra produkter. -->
         </p>
-        <p>Syfte med webbplatsen är<br>
-            1. Att bygga ett bra rykte eftersom det hjälper alltid när man tradar.<br>
-            2. Att tjäna pengar på överskotten.
+        <p>Syftet med webbplatsen är
+            <br> 1. Att bygga ett bra rykte.
+            <br> 2. Att tjäna pengar på överskotten.
         </p>
-        <p>Målgruppen består av<br>
-            1. Traders i TF2 (små och stora).<br>
-            2. Delgrupperna skulle nog vara mest de som är små traders, för det finns många fler små än stora.<br>
-            3. De andra är bland annat de som har ofantligt värdefulla ryggsäckar, även den här gruppen varierar men till exempel finns det många med ryggsäckar värda $1000.<br>
-            4. Det finns även folk som vill använda användarskript för att automatiskt handla, vilket sidan inte förbjuder.<br>
-            Den här listan är sorterad efter majoritet, så 2 är den största delgruppen, 4 är den minsta.
+        <p>Målgruppen består av
+            <br> 1. Handlare i TF2 (små och stora).
+            <br> 2. Delgrupperna skulle nog vara mest de som är små handlare, för det finns många fler små än stora.
+            <br> 3. De andra är bland annat de som har mycket värdefulla inventarier, även den här gruppen varierar men till exempel finns det många med inventarier värda $1000.
+            <br> 4. Det finns även folk som vill använda användarskript för att automatiskt handla, vilket sidan inte förbjuder.
+            <br> Den här listan är sorterad efter majoritet, så 2 är den största delgruppen, 4 är den minsta.
         </p>
         <h3>Användarnas behov</h3>
         <ul>
-            <li>Tillgång till updaterade priser.</li>
+            <li>Tillgång till uppdaterade priser.</li>
             <li>Tillgång till snabba, automatiska och säkra affärer.</li>
-            <li>Enkel navigering.</li>
+            <li>Enkel navigation.</li>
         </ul>
     </section>
     <section>
@@ -80,15 +80,19 @@
             <li>En startsida som introducerar sidan och hänvisar till de andra sidorna.</li>
             <li>En sida för att köpa scrapweapons.</li>
             <li>En sida för att köpa unusuals.</li>
+            <li>En sida för att köpa förtrollade scrapweapons.</li>
+            <li>En sida för att köpa förtrollade unusuals.</li>
             <li>En sida för support.</li>
-            <li>Namn, bild och pris i form av nycklar eller metall på produkter.</li>
+            <li>Produkter ska ha namn, bild och pris i form av nycklar eller metall.</li>
+            <li>Gridbox för produkterna som man köper genom att klicka på dem och sen klicka på kundvagnen.</li>
+            <li>FAQ och att kunna skicka ett mejl till utvecklaren om man kommer på en bugg med sidan, en idé, problem med köp eller annat.</li>
         </ul>
         <h3>Funktion</h3>
         <!-- Skriv korta konkreta och mätbara krav som beskriver VAD användaren ska kunna göra. -->
         <ul>
-            <li>Lokal navigering mellan sidorna.</li>
-            <li>Global navigering från startsidan.</li>
-            <li>Kommunicera med servern (till exempel att markera föremål och begära ett byte).</li>
+            <li>Lokal navigation mellan sidor som passar ihop i en grupp.</li>
+            <li>Global navigation på alla sidor.</li>
+            <li>Kommunicera med servern (till exempel att markera produkter och begära ett byte).</li>
             <li>Använda sidan på datorn eller telefonen.</li>
             <li>Förändringar i bakgrundsfärg och text-popups.</li>
             <li>Få byteserbjudande på Steam (hela poängen).</li>
@@ -98,13 +102,108 @@
         <h2>3. Beskrivning av arbetet</h2>
         <!-- Beskriv hur du arbetat med uppgiften. -->
         <!-- För VG är det viktigt att du beskriver hur du använt Garretts modell och tar med referenser med sidnummer till boken, för att styrka det du tar upp i din text. Se mer info i rutan om referenser på uppgiftens webbsida. -->
-        <p>Jag googlade mycket om det jag hade svårt med eller så använde jag ChatGPT, men själva koden lade jag till.</p>
-        <p>Jag fick väldigt fort migrän av uppgiften när jag började, så jag fick sova bort 10 timmar av dagen.<br>Troligtvis fick jag migrän av att sidan som jag läste reglerna på var ljus, och jag får otroligt lätt migrän av ljus.</p>
-        <p>Jag använde Garretts strategiplan (Garrett, 2011, s.36) för att komma fram till att den här sidans syfte är att kunder behöver en sida för säker och automatisk trading och jag behöver tjäna på vinsterna.</p>
-        <p>Jag använde också scopeplanen (Garrett, 2011 , s.58) för att bestämma delvis hur sidan ska fungera, den ska ha massor av knappar för att bestämma vad man vill ha, och så en textinmatning på supportsidan.</p>
-        <p>För strukturplanen (Garrett, 2011 , s.80) implementerade jag själva strukturen på sidan, till exempel:<br>På startsidan finns en knapp som länkar till alla andra sidor.<br>På de andra sidorna finns det en knapp som länkar till startsidan.<br>På sidorna där man köper någonting finns en meny med produkter, man klickar på det man vill köpa och så klickar man på kundvagnen.</p>
-        <p>För skelettplanen (Garrett, 2011 , s.108) fokuserade jag på placeringen av element på sidan. Jag använde rutnät för att strukturera föremålen, och placerade navigationslänkarna så att användaren hittar mellan sidorna. Jag såg också till att formuläret på supportsidan är centrerat.</p>
-        <p>För ytplanen (Garrett, 2011 , s.134) tog jag inspiration från en annan sida. Det handlar om hur sidan ser ut, sidan ser ganska simpel ut, mörk bakgrund, vit text för det mesta, gul text för scrapweapons och lila text för unusuals, sidorna där man köper saker så samlas föremålen i rutnät.</p>
+        <p>Jag kollade upp på internet hur programmeringsspråket fungerar för att lösa vissa problem, till exempel när jag fastnade på CSS-problem.</p>
+        <p>Jag använde Garretts strategiplan (Garrett, 2011, s.36) för att komma fram till att den här sidans syfte är att kunder behöver en sida för säker och automatisk trading och jag behöver tjäna på vinsterna. Modellen berättar att det som gör att
+            många sidor misslyckas är att innan sidan/programmet börjar med att skapas, så tänker ingen på detta:
+            <br>
+            <br>1. What do we want to get out of this product?
+            <br>2. What do our users want to get out of it?</p>
+        <p>
+            <br>Garrett varnar att det leder till att man har sin tanke om vad sidans syfte är som en oskriven regel, men att alla har olika oskrivna regler.
+            <br>Det är bara jag som programmerar här, så det här problemet finns inte men i projekt med flera utvecklare kan det här vara viktigt.
+            <br><br>Modellen skriver också "Every race has a finish line, it's important to know when you reached your objectives." vilket jag inte riktigt håller med om, eftersom det finns alltid mer man kan lägga till. Men Garrett menar troligtvis att man
+            ska veta när programmet är färdigt att släppas som version 1.0, så kan man förbättra det och få mer ut ur målen från det.
+            <br><br> Min sida uppfyller målen nu. Det som uppfyller målen är produktsidorna, där finns det produkter, och sidan simulerar köpet så att det liknar hur en riktig sida skulle göra, och det täcker både användarens och skaparens mål.</p>
+
+        <p>För scopeplanen (Garrett, 2011, s.58) så gäller det att man ska vara tydlig om vad för funktioner det ska finnas och vad vi ska skapa. Den delas i två delar, functional requirements och content requirements.
+            <br><br> Syftet med scopeplanen är att fastställa projektets omfattning så att alla vet exakt vad som ska byggas i den här versionen. Scopeplanen hjälper till att undvika misstag som till exempel "scope creep" där man bestämmer nya funktioner
+            mitt i arbete utan att hålla koll på vad som ska prioriteras, detta leder till att utvecklare behöver lägga ner mer tid eftersom dessa funktioner borde de lägga till efter att versionen de jobbar på är klar, vilket leder till problem med
+            tid och budget också.
+            <br><br> Definera krav, prioritera dem, skriv ner dem, var specifik, var positiv och skriv inte subjektivt är riktlinjer som scopeplanen tar upp för att flera utvecklare ska kunna jobba gemensamt.
+
+            <br>För functional requirements så bestämde jag dessa:
+            <br>
+            <br> Användaren ska kunna navigera mellan alla sidor.
+            <br> De ska kunna öppna produktsidorna och se produkter.
+            <br> De ska kunna klicka på produkter.
+            <br> När man klickar på en produkt ska den se markerad ut genom att bakgrundsfärgen blir ljus.
+            <br> När man klickar på kundvagnen ska man få ett meddelande som säger att man kommer få ett erbjudande skickat till sig.
+            <br> De ska kunna fylla i support-formuläret.
+            <br> Sidan ska funka på mobil (responsiv design).
+            <br>
+            <br> För content requirements:
+            <br>
+            <br> Etiketter på produkter som visar namn, pris och eventuella attribut (som spells eller förtrollningar på svenska)
+            <br> Bilder på hur produkten ser ut
+            <br> FAQ med svar
+            <br> Navigeringen ska vara enkel för användaren att hitta genom att ha den på samma ställen, och namn och bild på länkarna och mellanrum mellan dem.
+            <br>Global navigation ska finnas högst upp på alla sidor, på produktsidorna ska en gridbox med produkterna finnas i mitten, kundvagnen ska vara uppe till höger och under gridboxen ska lokal navigation mellan produktsidorna finnas.</p>
+        <br>För FAQ så tog jag upp två frågor som folk förmodligen skulle undra. Garrett sade att man ska vara noggrann med vilka frågor som användarna undrar ofta. Men jag har inga kunder, det är en fiktiv sida så jag skapar fiktiva kunder som undrar
+        detta.
+
+
+        <p>Strukturplanen (Garrett, 2011, s.80) handlar om hur innehållet på webbplatsen organiseras och hur användaren rör sig genom den. Modellen delar upp detta i två delar: Interaction Design och Information Architecture.
+            <br>
+            <br> Interaction Design handlar om hur det fungerar när användaren interagerar med produkten. På min webbsida innebär det att:
+            <br> När användaren klickar på länkar i global eller lokal navigering förs dem till motsvarande sida.
+            <br> När man klickar på en produkt markeras det som valt.
+            <br> När man klickar på kundvagnen får man ett meddelande om att ett erbjudande "skickas".
+            <br> Dessa är de tre viktigaste funktionerna webbsidan har, och de ska vara lätta för användaren att förstå.
+            <br>
+            <br>Information Architecture handlar om hur informationen är strukturerad och grupperad vilket innebär att:
+            <br>
+            <br> På alla sidor så hamnar vad som helst alltid på samma ställe, till exempel:
+            <br>
+            <br> Global navigering hamnar alltid högst uppe på sidan.
+            <br> "© 2025 Isak Fortress 2 Bank" hamnar alltid på botten.
+            <br> Lokal navigering hamnar alltid nära botten.
+            <br> Alla sidor har inte lokal navigering, men när någonting visas fler än en gång, så är det ofta på samma plats, ibland gjorde jag undantag när det passar, lokal navigering hamnar högt upp på startsidan till exempel.
+            <br>
+            <br> Startsidan visar en kort introduktion till organisationen.
+            <br> Produktsidorna har ett rutnät i mitten med produkter till salu, och under detta finns lokal navigering.
+
+
+
+        <p>
+            Skelettplanet (Garrett, 2011, s.108) handlar om sidans layout och hur alla delar placerats visuellt. Det täcker Interface Design, Navigation Design och Information Design, alltså hur knappar, menyer, bilder och text organiseras på sidan.
+            <br>
+            <br> På min webbsida innebär det att layouten ska vara tydlig och konsekvent.
+            <br>
+            <br>
+            <br> Lokal navigering ligger längst ned på produktsidorna.
+            <br>
+            <br> Länkarna är organiserade som kolumner där bilden ligger ovanför texten, eftersom det gör dem enklare att känna igen.
+            <br>
+            <br> Produkterna ligger i ett rutnät i mitten av sidan, och varje produkt har en stor bild med titel och pris direkt under för att göra informationen lätt att ta in.
+            <br>
+            <br> Valda föremål får en markering så att användaren tydligt ser vad som är valt.
+            <br>
+            <br> Kundvagnen visas som en knapp i övre högra hörnet i rutnätet med både text och ikon. Hover-effekter används på bilder och länkar för att göra interaktionerna mer begripliga.
+            <br>
+            <br> Sidan är responsiv, så på smalare skärmar ändras en del saker som att minska mellanrum och göra bilder mindre.
+            <br>På smala skärmar delas navigeringen upp i flera rader så att det inte tar upp hela skärmen vilket tidigare gjorde en användare förvirrad.
+            <br>
+            <br> Support-formuläret är centrerat för att vara tydligt och lätt att fylla i.
+        </p>
+
+        <p>
+            För ytplanen (Garrett, 2011, s.134) tog jag inspiration från scrap.tf, så om man går in på scrap.tf ser man att några saker liknar det som finns på min sida.
+            <br>
+            <br> Garrett nämner att vi upplever produkter genom flera sinnen, men för webbsidor handlar ytplanet framför allt om det visuella intrycket – färger, former och hur allt ser ut på ytan.
+            <br>
+            <br> Webbsidan har en mörk bakgrund med vit text, gul text för scrapweapons och lila text för unusuals eftersom det matchar färgen de har i spelet. Detta gör kategorierna lättare att känna igen.
+            <br>
+            <br> På produktsidor där man köper saker samlas produkterna i en rektangel med rundade hörn. Kanten är gul eftersom den sticker ut tydligt mot en mörk bakgrund och drar användarens uppmärksamhet till produkterna.
+            <br>
+            <br> Varje produkt har en bild med en ram där ramens färg matchar den färg den har i spelet.
+            <br>
+            <br> Färgerna och kontrasterna gör det enklare för användaren att snabbt förstå strukturen. Om produkterna och bakgrunden hade liknande färger hade det blivit svårare att hitta dem.
+            <br>
+            <br> Kundvagnsikonen ligger i produktsektionen och fungerar som en knapp.
+            <br>
+            <br> Bilderna har hover-effekter vilket betyder att de till exempel blir större när man håller muspekaren över dem, vilket gör det tydligt vad som går att klicka på.
+        </p>
+
     </section>
     <section>
         <h2>4. Bilder</h2>
@@ -113,7 +212,7 @@
         <ul>
             <li>Jag minskade bilderna till 50% av sidan (eller 25% av ytan).</li>
         </ul>
-        <p>Picture-elementet visar en shoppingvagn på följande sidor: scrapweapons.html, unusuals.html</p>
+        <p>picture-elementet visar en shoppingvagn på följande sidor: scrapweapons.html, unusuals.html, scrapweapons_spell.html och unusuals_spell.html</p>
         <p>Bilderna kommer från Team Fortress 2 eller så har jag gjort dem eller googlat.</p>
     </section>
     <section>
@@ -125,16 +224,21 @@
             <li>En startsida som introducerar sidan och hänvisar till de andra sidorna. Kravet är uppfyllt.</li>
             <li>En sida för att köpa scrapweapons. Kravet är uppfyllt, finns på scrapweapons.html.</li>
             <li>En sida för att köpa unusuals. Kravet är uppfyllt, finns på unusuals.html.</li>
+            <li>En sida för att köpa förtrollade scrapweapons. Kravet är uppfyllt, finns på scrapweapons_spell.html.</li>
+            <li>En sida för att köpa förtrollade unusuals. Kravet är uppfyllt, finns på unusuals_spell.html.</li>
             <li>En sida för support. Kravet är uppfyllt, finns på support.html.</li>
-            <li>Namn, bild och pris i form av nycklar eller metall på produkter. Kravet är uppfyllt, för varje föremål är det en bild, och under står namnet sen priset.</li>
+            <li>Produkter ska ha namn, bild och pris i form av nycklar eller metall. Kravet är uppfyllt, för varje produkt är det en bild, och under står namnet sen priset.</li>
+            <li>Gridbox för produkterna som man köper genom att klicka på dem och sen klicka på kundvagnen. Kravet är uppfyllt, det finns på alla produktsidor, i delen med id="purchase-grid".</li>
+            <li>FAQ och att kunna skicka ett mejl till utvecklaren om man kommer på en bugg med sidan, en idé, problem med köp eller annat. Kravet är uppfyllt, det finns ett form-element med id="support-box" där man kan skicka mejl, och FAQ finns precis
+                ovanför.</li>
         </ul>
         <h3>Funktion</h3>
         <!-- Skriv korta konkreta och mätbara krav som beskriver VAD användaren ska kunna göra. -->
         <ul>
-            <li>Lokal navigering mellan sidorna. Uppfyllt, unusuals har en länk till scrapweapons och scrapweapons har en länk till unusuals, båda är subpages.</li>
-            <li>Global navigering från startsidan. Uppfyllt, startsidan har en länk för varje sida som visas med text eller bild.</li>
-            <li>Kommunicera med servern (till exempel att markera föremål och begära ett byte). Ej uppfyllt då uppgiften är en fiktionell sida där backend/javascript förbjuds.</li>
-            <li>Använda sidan på datorn eller telefonen. Uppfyllt, speciellt genom att använda kod som max-width i CSS.</li>
+            <li>Lokal navigation mellan sidor som passar ihop i en grupp. Uppfyllt, produktsidorna har lokal navigation nära botten av sidan som visar alla banksidor förutom den nuvarande.</li>
+            <li>Global navigation. Uppfyllt, alla sidor har länkar till alla sidor.</li>
+            <li>Kommunicera med servern (till exempel att markera produkter och begära ett byte). Ej uppfyllt då uppgiften är en fiktionell sida där backend/javascript förbjuds.</li>
+            <li>Använda sidan på dator eller telefon. Uppfyllt, speciellt genom att använda responsiv CSS-kod som max-width.</li>
             <li>Förändringar i bakgrundsfärg och text-popups. Uppfyllt, gjorde förändringar i HTML och CSS för att uppnå.</li>
             <li>Få byteserbjudande på Steam. Ej uppfyllt då uppgiften är en fiktionell sida där backend/javascript förbjuds.</li>
         </ul>
@@ -144,9 +248,14 @@
         <h3>- med metoden "Tänka högt" (Thinking Out Loud)</h3>
         <!-- Endast för VG. Har du inte utfört användartest, tar du bort detta avsnitt (hela section-elementet). -->
         <!-- Beskriv hur du genomförde användartestet. Ange vilka brister du upptäckte och hur du åtgärdat dem. -->
-        <p>Mamma testade sidan. Hon gick in på alla sidor förutom rapporten och hon köpte en unusual och en scrapweapon (burning flames thirst blood och bat outta hell) och hon klagade på att när man väljer föremål så indikeras det inte, ingenting händer heller när man klickar på kundvagnen. Jag sade att det blir omöjligt utan javascript, men jag är säker på att det går att ordna någonting. Hon gick in på support sidan och föreslog det, så jag implementerade det nu. På telefonen såg det illa ut, så det fixar jag också.</p>
-        <p>Morfar testade sidan, det gick nästan precis som förväntat förutom att kundvagnen behöver putta ner produkterna. Fixade det nu och testade på telefonen och datorn igen.</p>
-        <p>En kompis testade sidan, allt gick som förväntat, fixade ett felaktigt namn, han önskade att det fanns mer, men javascript (i försök att göra det lättare) så det går inte berättade jag.</p>
+        <p>Min mamma testade sidan. Hon gick in på alla sidor förutom rapporten och hon köpte en unusual och ett scrapweapon (burning flames thirst blood och bat outta hell) och hon klagade på att när man väljer produkter så indikeras det inte, ingenting
+            händer heller när man klickar på kundvagnen. Jag berättade att det blir omöjligt utan javascript, men jag är säker på att det går att ordna någonting. Hon gick in på supportsidan och föreslog det, så jag implementerade det nu. På telefonen
+            såg det illa ut, så det fixar jag också.</p>
+        <p>Min morfar testade sidan, det gick nästan precis som förväntat förutom att kundvagnen behöver putta ner produkterna. Fixade det nu och testade på telefonen och datorn igen.</p>
+        <p>Min kompis testade sidan, nästan allt gick som förväntat, fixade ett felaktigt namn, han önskade att det fanns mer, dock sade han inte ifall han menar mer funktionalitet eller att göra sidan snyggare, men han önskade säkert lite mer av allt,
+            men javascript förbjuds så jag berättade att det inte finns mycket man kan lägga till.</p>
+        <p>Efter att jag ändrade koden för omexaminationen testade mamma sidan igen, hon blev lite förvirrad men det gick till slut. Jag märkte att hon blev förvirrad för att global navigering tog upp hela skärmen, så jag ändrade så att det finns fler
+            än en kolumn så att navigeringen tar upp mindre plats.</p>
     </section>
     <section>
         <h2>Källförteckning</h2>
@@ -154,4 +263,5 @@
     </section>
 </main>
 </body>
+
 </html>
