@@ -1,59 +1,33 @@
-body {
-  background-color: #2a2a2a;
-  color: white;
-  padding: 0;
-  margin: 0;
-  height: 100vh;
-  font-size: 200%;
-  font-family: Verdana, sans-serif;
-}
 #icon-container {
   display: flex;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
+  padding-top: 50px;
+  text-align: center;
+  vertical-align: center;
 }
-#where-to {
-  display: flex;
-  justify-content: center;
-}
-#links-section {
+
+#introduction {
+  margin: 20px;
+  font-size: 2rem;
+  text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  font-size: 200%;
-}
-.unique-text {
-  color: #ffd700;
-  font-size: 50%;
-}
-.unusual-text {
-  color: #8650ac;
-  font-size: 50%;
-}
-p {
   color: white;
 }
-#intro {
-  margin: 20px;
+
+
+#reviews p {
+  text-align: start;
 }
-.top-row {
-  display: flex;
-  gap: 20px;
+
+#local-navigation {
+  margin: 3rem 0;
 }
-.top-row a {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-a {
-  text-decoration: none;
-}
+
 
 @media (max-width: 600px) {
   body {
-    font-size: 120%;
-  }
-  img {
-    width: 50%;
+    font-size: 1.2rem;
   }
 }

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support</title>
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/support.css">
+
+  <link rel="icon" href="../favicon.ico" sizes="any">
+</head>
+
+<body>
+
+<header>
+  <nav class="links-section" id="global-navigation">
+    <!-- Global navigation -->
+    <a href="../index.html">
+      <img alt="Home Page" id="home-icon" src="../img/home.png">
+      <p id="home-text">Home Page</p>
+    </a>
+    <a href="../banking/scrapweapons.html">
+      <img class="unique" alt="Scrapweapons" src="../img/scrapweapons/market_gardener.png">
+      <p class="unique-text">Scrapweapons</p>
+    </a>
+    <a href="../banking/unusuals.html">
+      <img class="unusual" alt="Unusuals" src="../img/unusuals/burning_flames_thirst_blood_small.png">
+      <p class="unusual-text">Unusuals</p>
+    </a>
+    <a href="../banking/scrapweapons_spell.html">
+      <img class="unique" alt="Spelled scrapweapons" src="../img/scrapweapons/market_gardener.png">
+      <p class="unique-text">Spelled
+        <br>scrapweapons</p>
+    </a>
+    <a href="../banking/unusuals_spell.html">
+      <img class="unusual" alt="Spelled unusuals" src="../img/unusuals/burning_flames_thirst_blood_small.png">
+      <p class="unusual-text">Spelled
+        <br>unusuals</p>
+    </a>
+    <a href="./support.html">
+      <img alt="Support" id="support-icon" src="../img/support.png">
+      <p id="current-page-text">Support</p>
+    </a>
+  </nav>
+</header>
+
+<main>
+  <h2>Support</h2>
+  <h3>FAQ</h3>
+  <p>Q: How do I make a trade?</p>
+  <p>A: Go to one of the banking pages which appear at the top of all pages (Scrapweapons - Spelled unusuals), click on the items you want to purchase, and click the shopping cart icon to get the trade offer.</p>
+  <p>Q: How do I know what an item is worth?</p>
+  <p>A: There are websites that track item prices. For key rates, look at
+    <a href="https://backpack.tf/classifieds?item=Mann+Co.+Supply+Crate+Key&quality=6" rel="noopener noreferrer" target="_blank">this page</a>
+  </p>
+  <p>For other items like unusuals, you can go to backpack.tf and type the name of the unusual, and you should land on a page similar to
+    <a href="https://backpack.tf/stats/Unusual/Thirst%20Blood/Tradable/Craftable/13" rel="noopener noreferrer" target="_blank">this</a>
+  </p>
+  <p>You can also go to
+    <a href="https://pricedb.io/search" rel="noopener noreferrer" target="_blank">Price DB</a> and look there as a backup if there are no listings on backpack.tf.</p>
+  <p>For spelled items, it gets a bit harder since autopricers don't have them, spells don't appear in the SKU, and in the listings the buy orders are often too low and sell orders sometimes too high.</p>
+  <form id="support-box">
+    <label for="issue" class="sr-only">Select an issue type</label>
+    <select id="issue" name="issue">
+      <!-- Missing associated label  -->
+      <option value="purchase">Purchase Problem</option>
+      <option value="bug">Website Bug</option>
+      <option value="idea">Idea</option>
+      <option value="other">Other</option>
+    </select>
+    <label class="sr-only" for="email">Enter your email here.</label>
+    <textarea id="email" name="email" rows="1" placeholder="Your email (optional)"></textarea>
+    <label class="sr-only" for="message">Enter your message here.</label>
+    <textarea id="message" name="message" rows="10" placeholder="Type your message here"></textarea>
+    <input id="submit-button" type="submit" value="Submit">
+  </form>
+</main>
+<footer>
+  <p>© 2025 Isak Fortress 2 Bank</p>
+</footer>
+
+</body>
+
+</html>

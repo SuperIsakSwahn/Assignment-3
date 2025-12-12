@@ -1,20 +1,36 @@
-#home-page-text {
-  display: flex;
-  justify-content: center;
-  color: white;
-  font-size: 100%;
+h2 {
+  font-size: 2rem;
 }
 
-h2 {
-  font-size: 100%;
-  display: flex;
-  justify-content: center;
+h3 {
+  font-size: 1.6rem;
 }
+
+h2,
+h3 {
+  text-align: center;
+}
+
+#purchase-grid:hover {
+  border-color: #ffdd00;
+  /* slightly brighter yellow */
+  transition: border-color 0.3s ease;
+}
+
+div label img:hover {
+  transform: scale(1.05);
+}
+
 
 #purchase-grid {
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  border: 3px solid yellow;
+  border-radius: 10px;
   display: grid;
-  justify-self: center;
-  background-color: #1a1a1a;
+  background: linear-gradient(to bottom right,
+  #1c1c1c,
+  #111111);
   width: 90%;
   height: fit-content;
 }
@@ -25,13 +41,6 @@ h2 {
   cursor: pointer;
 }
 
-
-#products-yellow img {
-  color: gold;
-}
-#products-purple img {
-  color: #8650ac;
-}
 
 #products-yellow,
 #products-purple {
@@ -46,18 +55,12 @@ h2 {
 #products-yellow p,
 #products-purple p {
   justify-self: center;
-  font-size: 50%;
-}
-
-#products-purple img,
-#products-yellow img {
-  border: 3px solid;
-  border-radius: 15px;
+  font-size: 1rem;
 }
 
 
 #checkout-text {
-  font-size: 60%;
+  font-size: 1rem;
 }
 
 #payment-section {
@@ -65,7 +68,6 @@ h2 {
   position: relative;
   justify-self: end;
   margin: 10px;
-  vertical-align: center;
   flex-direction: column;
   background-color: #464646;
   align-items: center;
@@ -80,7 +82,7 @@ h2 {
   width: 80%;
 }
 
-#shopping_cart:checked + #offer-message {
+#shopping_cart:checked+#offer-message {
   display: block;
 }
 
@@ -89,50 +91,38 @@ h2 {
 }
 
 
-
 #payment-section:active {
   background-color: grey;
 }
 
-#unusuals-section, #scrapweapons-section {
+#unusuals-section,
+#scrapweapons-section {
   display: flex;
   align-items: center;
   justify-self: center;
   flex-direction: column;
 }
 
-body {
-  background-color: #2a2a2a;
-  color: white;
-  padding: 0;
-  margin: 0;
-  height: 100vh;
-  font-size: 200%;
-  font-family: Verdana, sans-serif;
-}
 
-a {
-  text-decoration: none;
-}
-
-
-#products-purple input:checked + label img,
-#products-yellow input:checked + label img {
+#products-purple input:checked+label img,
+#products-yellow input:checked+label img {
   background-color: gray;
 }
+
 
 @media (max-width: 600px) {
   #payment-section {
     justify-self: center;
     position: static;
   }
+
   #offer-message {
     visibility: visible;
     display: none;
     width: 100%;
   }
 
-  #shopping_cart:checked + #offer-message {
+  #shopping_cart:checked+#offer-message {
     display: block;
   }
 }

@@ -1,45 +1,43 @@
-#home-page-text {
-  display: flex;
-  justify-content: center;
-  color: white;
-  font-size: 100%;
+h2,
+h3 {
+  text-align: center;
 }
 
-h2 {
-  font-size: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-body {
-  background-color: #2a2a2a;
-  color: white;
-  padding: 0;
-  margin: 0;
-  height: 100vh;
-  font-size: 200%;
-  font-family: Verdana, sans-serif;
-}
-
-a {
-  text-decoration: none;
-}
 
 #submit-button {
   cursor: pointer;
 }
 
+.links-section {
+  margin: 0;
+}
+
+main p {
+  font-size: 1.2rem;
+}
+
+
 #support-box {
+  background-color: #1a1a1a;
   display: flex;
   flex-direction: column;
   justify-self: center;
   align-content: center;
   align-items: center;
   width: 100%;
+  padding: 40px;
+  box-sizing: border-box;
 }
+
 #message {
   width: 80%;
   max-width: 600px;
+}
+
+#email {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px;
 }
 
 #submit-button {
@@ -49,3 +47,21 @@ a {
 }
 
 
+@media (max-width: 600px) {
+  #support-box {
+    padding: 20px;
+  }
+
+  #issue {
+    padding: 1rem;
+  }
+
+  #message,
+  #email {
+    width: 100%;
+  }
+
+  #submit-button {
+    width: 100%;
+  }
+}

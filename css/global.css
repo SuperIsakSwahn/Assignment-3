@@ -1,0 +1,129 @@
+body {
+    background: linear-gradient(to bottom right,
+    #2a2a2a,
+    #1a1a1a);
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+    font-family: Verdana, sans-serif;
+}
+
+h3 {
+    padding: 2rem;
+}
+
+#home-icon,
+#support-icon {
+    width: 100px;
+}
+
+
+#current-page-text {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+main h2 {
+    margin-top: 0;
+    padding-top: 2rem;
+}
+
+.links-section {
+    background: linear-gradient(to bottom right,
+    #171717,
+    #1a1a1a);
+    padding: 0 40px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    /* Hard to notice but centers the text better */
+    justify-self: center;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 50px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.links-section a {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.25s ease;
+}
+
+.links-section a:hover {
+    transform: scale(1.05);
+}
+
+
+.links-section img {
+    display: flex;
+    justify-self: center;
+    width: 50%;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    .links-section {
+        flex-direction: column;
+    }
+}
+
+#products-purple img,
+#products-yellow img,
+.unusual,
+.unique {
+    border: 3px solid;
+    border-radius: 15px;
+}
+
+.unique-text,
+.unusual-text,
+#support-text,
+#home-text {
+    font-size: 1rem;
+}
+
+
+#products-yellow img,
+.unique-text,
+.unique {
+    color: gold;
+}
+
+.sr-only {
+    position: absolute;
+    left: -9999px;
+}
+
+#products-purple img,
+.unusual-text,
+.unusual {
+    color: #8650ac;
+}
+
+
+#local-navigation {
+    box-sizing: border-box;
+    background-color: #1a1a1a;
+    justify-content: center;
+    gap: 60px;
+}
+
+#local-navigation p,
+#local-navigation a {
+    margin: 0;
+}
+
+#local-navigation p {
+    padding-top: 0.8rem;
+}
