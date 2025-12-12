@@ -72,11 +72,6 @@ main h2 {
     padding: 10px;
 }
 
-@media (max-width: 600px) {
-    .links-section {
-        flex-direction: column;
-    }
-}
 
 #products-purple img,
 #products-yellow img,
@@ -127,3 +122,31 @@ main h2 {
 #local-navigation p {
     padding-top: 0.8rem;
 }
+
+@media (max-width: 600px) {
+    .links-section {
+        justify-content: center;
+        justify-items: center;
+        padding: 0;
+        margin: 0;
+        flex-wrap: wrap;        /* allows multiple columns */
+    }
+    .links-section a {
+        width: 200px;
+        max-width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .links-section img {
+        width: 50%;
+        height: auto;
+        padding: 0;
+    }
+
+    #local-navigation {
+        margin: 0;
+        gap: 0;
+        flex-wrap: wrap;        /* allows multiple columns */
+    }
+}
+
